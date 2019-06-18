@@ -22,16 +22,17 @@ body {width: 100%; background: orange;}
   border: 1px solid #eee;
   border-radius: 8px;
   outline: none;
-  box-shadow: 1px 1px #eee;
   font-size: 1em;
   font-weight: 300;
 }
 .header form .iButton1 {
   width: 39%;
-  margin-right: 2%
+  margin-right: 2%;
+  background: lightgray;
 }
 .header form .iButton2 {
   width: 39%;
+  background: lightgray;
 }
 .header form .iButton1:hover {
   background: rgba(255, 255, 255 , 0.8);
