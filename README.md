@@ -1,12 +1,13 @@
 # EX-Twittler
 ## 트위틀러 커스텀 연습
 - - -
-## 1. Header
+## 0. Title
 - title
+## 1. Header
+
+## 2. Section
 - form
 - input
-- button
-## 2. Section
 - button
 - box Container
 ## 3. Footer

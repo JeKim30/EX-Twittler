@@ -1,1 +1,51 @@
 @charset "utf-8";
+/* 레이아웃 */
+* {margin: 0; padding: 0; font-family: 'Open Sans Condensed', sans-serif;}
+body {width: 100%; background: orange;}
+#title {margin-top: 20px; text-align: center; font-size: 10em; color: white; text-shadow: 5px 5px #ccc;}
+#wrap {
+  margin: 1% auto; 
+  width: 80%; 
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* 헤더 영역 */
+.header {text-align: center;}
+.header form {}
+.header form input {
+  box-sizing: border-box;
+  width: 80%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  outline: none;
+  box-shadow: 1px 1px #eee;
+  font-size: 1em;
+  font-weight: 300;
+}
+.header form .iButton1 {
+  width: 39%;
+  margin-right: 2%
+}
+.header form .iButton2 {
+  width: 39%;
+}
+.header form .iButton1:hover {
+  background: rgba(255, 255, 255 , 0.8);
+}
+.header form .iButton2:active {
+  background: rgba(255, 255, 255, 0.7);
+}
+.header form .iButton1:hover {
+  background: rgba(255, 255, 255 , 0.8);
+}
+.header form .iButton2:active {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+/* 섹션 영역 */
+.section {text-align: center;}
+
