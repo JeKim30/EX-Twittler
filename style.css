@@ -28,25 +28,37 @@ body {width: 100%; background: orange;}
 .header form .iButton1 {
   width: 39%;
   margin-right: 2%;
-  background: lightgray;
+  font-size: 1.2em;
+  font-weight: 600;
+  background: red;
+  border: 1px solid red;
+  transition: all .5s;
 }
 .header form .iButton2 {
   width: 39%;
-  background: lightgray;
+  font-size: 1.2em;
+  font-weight: 600;
+  background: red;
+  border: 1px solid red;
+  transition: all .5s;
 }
 .header form .iButton1:hover {
-  background: rgba(255, 255, 255 , 0.8);
+  background: rgba(255, 0, 0 , 0.5);
+}
+.header form .iButton1:active {
+  background: rgba(255, 0, 0, 0.5);
+}
+.header form .iButton2:hover {
+  background: rgba(255, 0, 0 , 0.5);
 }
 .header form .iButton2:active {
-  background: rgba(255, 255, 255, 0.7);
-}
-.header form .iButton1:hover {
-  background: rgba(255, 255, 255 , 0.8);
-}
-.header form .iButton2:active {
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 0, 0, 0.5);
 }
 
 /* 섹션 영역 */
 .section {text-align: center;}
-
+.section .box-container {}
+.section .box-container .divBox {margin: 10px 20px; padding: 10px; background: rgba(0,0,0,0.5); border-radius: 10px;}
+.section .box-container button {color: white; background: none; border: none; outline: none; font-size: 1.2em; font-weight: 600;}
+.section .box-container p:nth-child(2) {color: #eee;}
+.section .box-container p:nth-child(3) {color: gray;}
